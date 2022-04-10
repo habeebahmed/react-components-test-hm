@@ -40,6 +40,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: source .env && node -p process.env.GITHUB_TOKEN
     - run: npm ci
     - run: npm run semantic-release
     
