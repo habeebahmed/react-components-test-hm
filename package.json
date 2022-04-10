@@ -19,7 +19,8 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
     "semantic-release": "semantic-release",
-    "commit":"cz"
+    "commit": "cz",
+    "acp":"git add . && npm run commit && git push"
   },
   "peerDependencies": {
     "react": "16.x"
