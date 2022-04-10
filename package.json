@@ -1,7 +1,7 @@
 {
-  "name": "react-components",
+  "name": "react-components-test-hm",
   "version": "0.0.0-development",
-  "description": "react-components/ React component",
+  "description": "react-components-test-hm/ React component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/habeebahmed/react-components.git"
+    "url": "https://github.com/habeebahmed/react-components-test-hm.git"
   },
   "keywords": [
     "react-component"
