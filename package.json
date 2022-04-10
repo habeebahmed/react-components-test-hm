@@ -18,12 +18,15 @@
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "commit":"cz"
   },
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "nwb": "0.25.x",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -43,6 +46,13 @@
     "semantic-release-cli": "^5.4.4"
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
