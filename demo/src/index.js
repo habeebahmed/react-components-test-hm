@@ -6,7 +6,7 @@ import Example from '../../src'
 export default class Demo extends Component {
   render() {
     return <div>
-      <h1>react-components/ Demo</h1>
+      <h1>Test/ Demos </h1>
       <Example/>
     </div>
   }
