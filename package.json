@@ -20,7 +20,7 @@
     "test:watch": "nwb test-react --server",
     "semantic-release": "semantic-release",
     "commit": "cz",
-    "acp":"git add . && npm run commit && git push"
+    "acp": "git add . && npm run commit && git push"
   },
   "peerDependencies": {
     "react": ">=16.x"
@@ -44,6 +44,7 @@
     "react-component"
   ],
   "dependencies": {
+    "react-components-test-hm": "^1.1.1",
     "semantic-release-cli": "^5.4.4"
   },
   "release": {
