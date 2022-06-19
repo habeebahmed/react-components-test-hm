@@ -20,14 +20,13 @@
     "test:watch": "nwb test-react --server",
     "semantic-release": "semantic-release",
     "commit": "cz",
-    "acp":"git add . && npm run commit && git push"
+    "acp": "git add . && npm run commit && git push"
   },
   "peerDependencies": {
     "react": ">=16.x"
   },
   "devDependencies": {
-    "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.3.0",
+    "cz-conventional-changelog": "^3.0.1",
     "nwb": "0.25.x",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -44,7 +43,8 @@
     "react-component"
   ],
   "dependencies": {
-    "semantic-release-cli": "^5.4.4"
+    "commitizen": "^4.2.4",
+    "semantic-release-cli": "^5.2.1"
   },
   "release": {
     "branches": [

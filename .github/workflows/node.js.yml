@@ -31,6 +31,11 @@ jobs:
 
   publish:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
     if: ${{github.ref == 'refs/heads/main'}}
     needs: [build]
     steps:
